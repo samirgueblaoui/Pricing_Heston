@@ -1,0 +1,34 @@
+# Compilation C++
+/build/
+/cmake-build-*/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.dSYM/
+/a.out
+/pricing_heston
+/test_discounting
+
+# Environnements et caches Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Exports des simulations
+/pathsimul.txt
+/pathsimul2.txt
+
+# Fichiers macOS et fichiers temporaires des editeurs
+.DS_Store
+._*
+*.swp
+*.swo
+*~
